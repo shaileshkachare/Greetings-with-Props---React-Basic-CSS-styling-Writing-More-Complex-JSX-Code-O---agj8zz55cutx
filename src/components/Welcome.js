@@ -1,5 +1,5 @@
 // write code for Welcome component here
-import Welcome from './Welcome';
+// import Welcome from './Welcome';
 // class Welcome extends React.Component{
 //     render(){
 
@@ -13,6 +13,9 @@ import Welcome from './Welcome';
 //         }
 //     }
 // }
+
+
+import React from 'react';
 const Welcome = ({name}) => {
     let sayHi = `Hey ${name}!`;
     let greetMessage = `Welcome to Newton School.`;
